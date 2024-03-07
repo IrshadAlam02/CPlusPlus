@@ -1,0 +1,89 @@
+
+#include <iostream>
+
+int main() 
+// {
+//     // Get the number of terms (N) from the user
+//     int N;
+//     std::cout << "Enter the number of terms for the table: ";
+//     std::cin >> N;
+
+//     // Display the multiplication table up to N terms
+//     std::cout << "Multiplication Table up to " << N << " terms:" << std::endl;
+
+//     for (int i = 1; i <= N; ++i) 
+//     {
+//         for (int j = 1; j <= 10; ++j) {
+//             std::cout << i * j << "\t";
+//     }
+//         std::cout << std::endl;
+//     }
+
+//     return 0;
+// }
+// {
+//   int n;
+//   std::cout << "Enter the test case: ";
+//   std::cin >> n;
+//  int x[n],y[n];
+//   for(int i=0;i<n;i++)
+//     {
+//       std::cin >> x[i]>>y[i];
+//     }
+//   for(int i=0;i<n;i++)
+//     {
+//       if(x[i]>=y[i])
+      
+//         std::cout << "NO\n";
+      
+//       else
+      
+//         std::cout << "YES\n";
+      
+   
+//     }
+//       return 0;
+// }
+
+// {
+//   int n;
+//   std::cout << "Enter the test case: ";
+//   std::cin >> n;
+//   int x[n],y[n],a[n];
+//   for(int i=0;i<n;i++)
+//     {
+//       std::cin >> x[i]>>y[i]>>a[i];
+//     }
+//   for(int i=0;i<n;i++)
+//     {
+//       if(x[i] <= a[i] && a[i] <y[i])
+//       {
+//         std::cout << "YES\n";
+//       }
+//       else{
+//         std::cout << "NO\n";
+//       }
+//     }
+// }
+{ int n;
+   std::cout << "Enter the test case: ";
+   std::cin >> n;
+  int x[n],y[n];
+   for(int i=0;i<n;i++)
+     {
+       std::cin >> x[i]>>y[i];
+     }
+   for(int i=0;i<n;i++)
+     {
+       if(x[i]>y[i])
+
+         std::cout << "A\n";
+
+       else
+
+         std::cout << "B\n";
+
+
+     }
+       return 0;
+ }
